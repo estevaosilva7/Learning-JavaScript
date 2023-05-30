@@ -1,0 +1,1 @@
+console.log("JavaScript no body com src")
