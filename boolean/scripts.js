@@ -6,3 +6,5 @@ console.log(falso);
 
 console.log(typeof verdadeiro);
 console.log(typeof falso);
+
+console.log(typeof Boolean);
