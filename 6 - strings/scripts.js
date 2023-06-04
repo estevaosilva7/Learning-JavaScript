@@ -4,6 +4,9 @@ var sobreNome = "Silva";
 console.log(nome);
 console.log(typeof nome);
 
+console.log(sobreNome);
+console.log(typeof sobreNome);
+
 var frase = "Mas que nome bonito";
 
 nomeCompleto = nome + " " + sobreNome;
