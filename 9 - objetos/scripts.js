@@ -2,6 +2,7 @@ var obj = {
 nome: "Estevão",
 idade: 24,
 profissao: "Progrmador",
+estarEstudando: false,
 estarTrabalhando: true,
 };
 
@@ -11,6 +12,7 @@ console.log(typeof obj);
 console.log(obj.nome);
 console.log(obj.idade);
 console.log(obj.profissao);
+console.log(obj.estarEstudando);
 console.log(obj.estarTrabalhando);
 console.log("O meu nome é " + obj.nome);
 
