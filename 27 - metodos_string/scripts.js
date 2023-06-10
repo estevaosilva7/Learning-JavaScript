@@ -1,28 +1,25 @@
-// toLowerCase e toUpperCase
+// lenght
+
+var nome = "Estevão";
+console.log(nome.length);
+
+var palavra = "jjhghnjfnboenfhgouehghequrhguhguivuuuuuuuuuuuuuuuuuuuuuuuuuuuuiiiiiii";
+console.log(palavra.length);
+
+// indexof
+
+console.log(nome[2]);
 
 var frase = "O melhor do mundo!";
 
-var caixaAlta = frase.toUpperCase();
-console.log(caixaAlta);
-var caixaBaixa = frase.toLowerCase();
-console.log(caixaBaixa);
+console.log(frase.indexOf("melhor"));
 
-// Trim
+// slice
 
-var nome = "               Estevão                  ";
-console.log(nome);
+var melhor = frase.slice(2,8);
+console.log(melhor);
 
-var nomeTrim = nome.trim();
-console.log(nomeTrim);
+// replace
 
-//Split
-
-console.log(frase.split(" "));
-
-var tags = "JavaScript,  Java, Html, CSS";
-
-console.log(tags.split(","))
-
-var frase2 = "O melhor do mundo melhor";
-console.log(frase2.indexOf("melhor"));
-console.log(frase2.lastIndexOf("melhor"));
+var edit = frase.replace("melhor", "KKK");
+console.log(edit);
